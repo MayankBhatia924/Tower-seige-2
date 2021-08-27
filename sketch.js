@@ -17,7 +17,7 @@ function setup() {
   ground = new Ground(600,580,1200,20);
 
   ground2 = new Ground(390,300,260,10);
-  //ground3 = new Ground(900,400,200,10);
+  ground3 = new Ground(900,380,200,10);
 
   polygon = new Polygon(150,200,30,30);
 
@@ -57,7 +57,7 @@ function draw() {
   background(55,43,43);
   ground.display();
   ground2.display();
-  //ground3.display();
+  ground3.display();
 
   block1.display();
   block2.display();
